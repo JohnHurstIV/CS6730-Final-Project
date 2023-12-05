@@ -36,6 +36,16 @@ GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
+
+<script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js">
+</script>
+
+<tableau-viz id="viz1701748695532"
+  src='https://public.tableau.com/views/Pokemon_17014658048490/WorldChampionshipTeams'
+  toolbar="bottom" hide-tabs>
+</tableau-viz>
+
+
 <div class='tableauPlaceholder' id='viz1701748695532' style='position: relative'>
   <noscript>
     <a href='#'>
@@ -136,7 +146,7 @@ end
 <script type='text/javascript'>
   var divElement = document.getElementById('viz1701633621614');
   var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width='100%';vizElement.style.height='100%';
+  vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
