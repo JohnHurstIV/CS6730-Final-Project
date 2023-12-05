@@ -2,41 +2,6 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# CS6730-Final-Project
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require("./lang/" + l);
-  return true;
-};
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
 ### Top 8 Teams 2014-2022
 
 <div class='tableauPlaceholder' id='viz1701753618007' style='position: relative'>
@@ -70,6 +35,9 @@ end
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
 
 
 ### Line Chart
@@ -106,7 +74,11 @@ end
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-### Ranking
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+
+
+### Ranking Bump Chart
 
 <div class='tableauPlaceholder' id='viz1701787289195' style='position: relative'>
    <noscript>
@@ -140,6 +112,12 @@ end
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+
+
+### Stacks
+
 <div class='tableauPlaceholder' id='viz1701737833922' style='position: relative'>
   <noscript>
     <a href='#'>
@@ -172,8 +150,12 @@ end
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-### Visualization 5
+
+
+### Stacks Too
+
 <div class='tableauPlaceholder' id='viz1701787382077' style='position: relative'>
    <noscript>
      <a href='#'>
@@ -206,8 +188,12 @@ end
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-### Visualization 6
+
+
+### Big Viz
+
 <div class='tableauPlaceholder' id='viz1701787406500' style='position: relative'>
    <noscript>
      <a href='#'>
@@ -240,8 +226,12 @@ end
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-### Visualization 4
+
+
+### Big Viz Broken Down
+
 <div class='tableauPlaceholder' id='viz1701787359390' style='position: relative'>
    <noscript>
      <a href='#'>
@@ -273,6 +263,7 @@ end
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+
 
 
 ### Scatter Plot Story
@@ -308,6 +299,44 @@ end
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+
+# Junk
+
+Text can be **bold**, _italic_, or ~~strikethrough~~.
+
+[Link to another page](./another-page.html).
+
+There should be whitespace between paragraphs.
+
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+
+# CS6730-Final-Project
+
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+## Header 2
+
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+
+### Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require("./lang/" + l);
+  return true;
+};
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
 
 #### Header 4
 
