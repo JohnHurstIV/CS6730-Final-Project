@@ -1,5 +1,5 @@
-title: CS 6730 Team 13
-description: Visualizing Pokemon World Championship Data
+title: Visualizing Pokemon World Championship Data 2014-2022
+description: Team 13 - CS 6730
 remote_theme: pages-themes/tactile@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
