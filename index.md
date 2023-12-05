@@ -98,7 +98,7 @@ end
 <script type='text/javascript'>
   var divElement = document.getElementById('viz1701764915160');
   var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width='700px';vizElement.style.height='1027px';
+  vizElement.style.width='1027px';vizElement.style.height='1027px';
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
