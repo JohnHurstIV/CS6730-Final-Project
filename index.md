@@ -37,15 +37,8 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-<script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js">
-</script>
 
-<tableau-viz id="viz1701748695532" style='height: 100%'
-  src='https://public.tableau.com/views/Pokemon_17014658048490/WorldChampionshipTeams'
-  toolbar="bottom" hide-tabs>
-</tableau-viz>
 
-<!--
 <div class='tableauPlaceholder' id='viz1701748695532' style='position: relative'>
   <noscript>
     <a href='#'>
@@ -72,15 +65,14 @@ end
   var divElement = document.getElementById('viz1701748695532');
   var vizElement = divElement.getElementsByTagName('object')[0];
   if ( divElement.offsetWidth > 800 )
-    { vizElement.style.width='1000px';vizElement.style.height='827px';}
+    { vizElement.style.width='1000px';vizElement.style.height='2752px';}
   else if ( divElement.offsetWidth > 500 )
-    { vizElement.style.width='1000px';vizElement.style.height='827px';}
-  else { vizElement.style.width='100%';vizElement.style.height='727px';}
+    { vizElement.style.width='1000px';vizElement.style.height='2752px';}
+  else { vizElement.style.width='100%';vizElement.style.height='2752px';}
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
--->
 
 
 ### Visualization 1
