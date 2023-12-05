@@ -40,7 +40,7 @@ end
 <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js">
 </script>
 
-<tableau-viz id="viz1701748695532" style='height: 100%'>
+<tableau-viz id="viz1701748695532" style='height: 100%'
   src='https://public.tableau.com/views/Pokemon_17014658048490/WorldChampionshipTeams'
   toolbar="bottom" hide-tabs>
 </tableau-viz>
