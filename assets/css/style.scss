@@ -4,9 +4,16 @@
   margin: 0 auto;
 }
 
+#container {
+  background: #E7E7E7;
+}
+
 @import "{{ site.theme }}";
 
 .inner {
   width: 1000px;
 }
 
+#container {
+  background: #E7E7E7;
+}
