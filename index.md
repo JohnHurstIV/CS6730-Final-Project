@@ -37,9 +37,7 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-
-
-<div class='tableauPlaceholder' id='viz1701748695532' style='position: relative'>
+<div class='tableauPlaceholder' id='viz1701752604028' style='position: relative'>
   <noscript>
     <a href='#'>
       <img alt='World Championship Teams ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;WorldChampionshipTeams&#47;1_rss.png' style='border: none' />
@@ -59,16 +57,15 @@ end
     <param name='display_overlay' value='yes' />
     <param name='display_count' value='yes' />
     <param name='language' value='en-US' />
+    <param name='filter' value='publish=yes' />
   </object>
 </div>
 <script type='text/javascript'>
-  var divElement = document.getElementById('viz1701748695532');
+  var divElement = document.getElementById('viz1701752604028');
   var vizElement = divElement.getElementsByTagName('object')[0];
-  if ( divElement.offsetWidth > 800 )
-    { vizElement.style.width='1000px';vizElement.style.height='2752px';}
-  else if ( divElement.offsetWidth > 500 )
-    { vizElement.style.width='1000px';vizElement.style.height='2752px';}
-  else { vizElement.style.width='100%';vizElement.style.height='2752px';}
+  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='3082px';}
+  else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='3082px';}
+  else { vizElement.style.width='100%';vizElement.style.height='727px';}
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
