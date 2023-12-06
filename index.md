@@ -2,9 +2,43 @@
 layout: default
 ---
 
+### The Wonderful World of Pokemon
+
+<div class='tableauPlaceholder' id='viz1701865356282' style='position: relative; height: 800px;'>
+   <noscript>
+      <a href='#'>
+         <img alt='PokeDex ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;PokeDex&#47;1_rss.png' style='border: none' />
+      </a>
+   </noscript>
+   <object class='tableauViz'  style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='Pokemon_17014658048490&#47;PokeDex' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;PokeDex&#47;1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+   </object>
+</div>
+<script type='text/javascript'>
+   var divElement = document.getElementById('viz1701865356282');
+   var vizElement = divElement.getElementsByTagName('object')[0];
+   if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}
+    var scriptElement = document.createElement('script');
+   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+   vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
 ### Top 8 Teams 2014-2022
 
-<div class='tableauPlaceholder' id='viz1701861359329' style='position: relative; margin-left: -183px;'>
+<div class='tableauPlaceholder' id='viz1701861359329' style='position: relative; margin-left: -183px; height: 768px;'>
    <noscript>
      <a href='#'>
        <img alt='Horizontal World Championship Teams ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;HorizontalWorldChampionshipTeams&#47;1_rss.png' style='border: none' />
@@ -156,7 +190,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ### Stacks Story
 
-<div class='tableauPlaceholder' id='viz1701862572364' style='position: relative'>
+<div class='tableauPlaceholder' id='viz1701862572364' style='position: relative; height: 964px;'>
    <noscript>
       <a href='#'>
          <img alt='Team Weaknesses Breakdown ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FK&#47;FKBD6TMD4&#47;1_rss.png' style='border: none' />
@@ -226,7 +260,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ### Scatter Plot Story
 
-<div class='tableauPlaceholder' id='viz1701793861768' style='position: relative'>
+<div class='tableauPlaceholder' id='viz1701793861768' style='position: relative; height: 1000px;'>
    <noscript>
      <a href='#'>
        <img alt='Scatter Plots ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;ScatterPlotStory&#47;1_rss.png' style='border: none' />
