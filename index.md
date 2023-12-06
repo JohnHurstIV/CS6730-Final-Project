@@ -131,7 +131,7 @@ Types
 
 
 
-![Types Area Chart](./assets/type_popularity_area.png?raw=true "Title")
+<img src="./assets/type_popularity_area.png?raw=true" alt="Types Area Chart" title="Types Area Chart" style='display: block; margin: auto;'>
 
 
 <p style='margin: 1em'>
