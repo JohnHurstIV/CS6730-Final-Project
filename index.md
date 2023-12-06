@@ -228,20 +228,16 @@ Ranking Bump Chart
 Area
 {:/comment}
 
-<div class='tableauPlaceholder' id='viz1701870263229' style='position: relative'>
-   <noscript>
-      <a href='#'>
-         <img alt='Area Chart ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ar&#47;Area_17017456766210&#47;Bump&#47;1_rss.png' style='border: none' />
-      </a>
-   </noscript>
+<div class='tableauPlaceholder' id='viz1701876943655' style='position: relative'>
+   <noscript><a href='#'><img alt='Story 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;General_Stats&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript>
    <object class='tableauViz'  style='display:none;'>
       <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
       <param name='embed_code_version' value='3' />
       <param name='site_root' value='' />
-      <param name='name' value='Area_17017456766210&#47;Bump' />
+      <param name='name' value='General_Stats&#47;Story1' />
       <param name='tabs' value='no' />
       <param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ar&#47;Area_17017456766210&#47;Bump&#47;1.png' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;General_Stats&#47;Story1&#47;1.png' />
       <param name='animate_transition' value='yes' />
       <param name='display_static_image' value='yes' />
       <param name='display_spinner' value='yes' />
@@ -251,14 +247,17 @@ Area
       <param name='filter' value='publish=yes' />
    </object>
 </div>
-<script type='text/javascript'>
-   var divElement = document.getElementById('viz1701870263229');
-   var vizElement = divElement.getElementsByTagName('object')[0];
-   vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-   var scriptElement = document.createElement('script');
-   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-   vizElement.parentNode.insertBefore(scriptElement, vizElement);
+<script type='text/javascript'>                    
+   var divElement = document.getElementById('viz1701876943655');                    
+   var vizElement = divElement.getElementsByTagName('object')[0];                    
+   vizElement.style.width='1016px';vizElement.style.height='991px';                    
+   var scriptElement = document.createElement('script');                    
+   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
+
+<p style='margin: 1em'>
+   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</p>
 
 <p style='margin: 1em'>
    This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
