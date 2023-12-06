@@ -131,6 +131,15 @@ Types
 
 
 
+![Types Area Chart](./assets/type_popularity_area.png?raw=true "Title")
+
+
+<p style='margin: 1em'>
+   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</p>
+
+
+
 {::comment}
 Line Chart
 {:/comment}
