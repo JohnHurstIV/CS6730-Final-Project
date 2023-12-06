@@ -93,7 +93,7 @@ Top 8 Teams 2014-2022
 Types
 {:/comment}
 
-<div class='tableauPlaceholder' id='viz1701874866052' style='position: relative'>
+<div class='tableauPlaceholder' id='viz1701874866052' style='position: relative; margin-left: -183px'>
    <noscript>
       <a href='#'>
          <img alt='Worlds Types ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;WorldsTypes&#47;1_rss.png' style='border: none' />
