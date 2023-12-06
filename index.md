@@ -1,6 +1,6 @@
-<h4 style='margin: 1em'>By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev</h4>
 ---
 layout: default
+By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 ---
 
 {::comment}
