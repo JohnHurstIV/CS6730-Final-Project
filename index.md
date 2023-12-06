@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Updating Paragraph Spacing
+<h4 style='margin: 1em'>By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev</h4>
 
 {::comment}
 The Wonderful World of Pokemon
