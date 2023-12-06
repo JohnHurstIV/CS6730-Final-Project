@@ -2,7 +2,13 @@
 layout: default
 ---
 
-### The Wonderful World of Pokemon
+Updating Paragraph Spacing
+
+{::comment}
+The Wonderful World of Pokemon
+{:/comment}
+
+## The Wonderful World of Pokemon
 
 <div class='tableauPlaceholder' id='viz1701865356282' style='position: relative'>
    <noscript>
@@ -36,7 +42,15 @@ layout: default
    vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-### Top 8 Teams 2014-2022
+<p style='margin: 1em'>
+   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</p>
+
+
+
+{::comment}
+Top 8 Teams 2014-2022
+{:/comment}
 
 <div class='tableauPlaceholder' id='viz1701861359329' style='position: relative; margin-left: -183px'>
    <noscript>
@@ -70,11 +84,56 @@ layout: default
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-The original horizontal scrolling viz can be found [here](https://public.tableau.com/views/Pokemon_17014658048490/WorldChampionshipTeams).
+<p style='margin: 1em'>
+   A vertically scrolling vatiation of this viz can be found <a href='https://public.tableau.com/views/Pokemon_17014658048490/WorldChampionshipTeams'>on Tableau Public</a>.      
+</p>
+
+
+{::comment}
+Types
+{:/comment}
+
+<div class='tableauPlaceholder' id='viz1701874866052' style='position: relative'>
+   <noscript>
+      <a href='#'>
+         <img alt='Worlds Types ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;WorldsTypes&#47;1_rss.png' style='border: none' />
+      </a>
+   </noscript>
+   <object class='tableauViz'  style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='Pokemon_17014658048490&#47;WorldsTypes' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;WorldsTypes&#47;1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+   </object>
+</div>
+<script type='text/javascript'>
+   var divElement = document.getElementById('viz1701874866052');
+   var vizElement = divElement.getElementsByTagName('object')[0];
+   if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}
+   var scriptElement = document.createElement('script');
+   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+   vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<p style='margin: 1em'>
+   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</p>
 
 
 
-### Line Chart
+{::comment}
+Line Chart
+{:/comment}
 
 <div class='tableauPlaceholder' id='viz1701786617025' style='position: relative'>
    <noscript>
@@ -108,11 +167,15 @@ The original horizontal scrolling viz can be found [here](https://public.tableau
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<p style='margin: 1em'>
+   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</p>
 
 
 
-### Ranking Bump Chart
+{::comment}
+Ranking Bump Chart
+{:/comment}
 
 <div class='tableauPlaceholder' id='viz1701787289195' style='position: relative'>
    <noscript>
@@ -146,11 +209,57 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<p style='margin: 1em'>
+   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</p>
 
 
 
-### Stacks
+{::comment}
+Area
+{:/comment}
+
+<div class='tableauPlaceholder' id='viz1701870263229' style='position: relative'>
+   <noscript>
+      <a href='#'>
+         <img alt='Area Chart ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ar&#47;Area_17017456766210&#47;Bump&#47;1_rss.png' style='border: none' />
+      </a>
+   </noscript>
+   <object class='tableauViz'  style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='Area_17017456766210&#47;Bump' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ar&#47;Area_17017456766210&#47;Bump&#47;1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+   </object>
+</div>
+<script type='text/javascript'>
+   var divElement = document.getElementById('viz1701870263229');
+   var vizElement = divElement.getElementsByTagName('object')[0];
+   vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+   var scriptElement = document.createElement('script');
+   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+   vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<p style='margin: 1em'>
+   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</p>
+
+
+
+{::comment}
+Stacks
+{:/comment}
 
 <div class='tableauPlaceholder' id='viz1701737833922' style='position: relative'>
   <noscript>
@@ -184,11 +293,15 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<p style='margin: 1em'>
+   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</p>
 
 
 
-### Stacks Story
+{::comment}
+Stacks Story
+{:/comment}
 
 <div class='tableauPlaceholder' id='viz1701862572364' style='position: relative'>
    <noscript>
@@ -222,9 +335,15 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
+<p style='margin: 1em'>
+   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</p>
 
 
-### Big Viz Story
+
+{::comment}
+Big Viz Story
+{:/comment}
 
 <div class='tableauPlaceholder' id='viz1701862826596' style='position: relative'>
    <noscript>
@@ -256,9 +375,15 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
    vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
+<p style='margin: 1em'>
+   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</p>
 
 
-### Scatter Plot Story
+
+{::comment}
+Scatter Ploy Story
+{:/comment}
 
 <div class='tableauPlaceholder' id='viz1701793861768' style='position: relative'>
    <noscript>
@@ -291,6 +416,12 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+
+<p style='margin: 1em'>
+   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</p>
+
+
 
 # Junk
 
