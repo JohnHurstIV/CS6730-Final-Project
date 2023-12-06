@@ -4,7 +4,7 @@ layout: default
 
 ### The Wonderful World of Pokemon
 
-<div class='tableauPlaceholder' id='viz1701865356282' style='position: relative; height: 800px;'>
+<div class='tableauPlaceholder' id='viz1701865356282' style='position: relative'>
    <noscript>
       <a href='#'>
          <img alt='PokeDex ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;PokeDex&#47;1_rss.png' style='border: none' />
@@ -38,7 +38,7 @@ layout: default
 
 ### Top 8 Teams 2014-2022
 
-<div class='tableauPlaceholder' id='viz1701861359329' style='position: relative; margin-left: -183px; height: 768px;'>
+<div class='tableauPlaceholder' id='viz1701861359329' style='position: relative; margin-left: -183px'>
    <noscript>
      <a href='#'>
        <img alt='Horizontal World Championship Teams ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;HorizontalWorldChampionshipTeams&#47;1_rss.png' style='border: none' />
@@ -190,7 +190,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ### Stacks Story
 
-<div class='tableauPlaceholder' id='viz1701862572364' style='position: relative; height: 964px;'>
+<div class='tableauPlaceholder' id='viz1701862572364' style='position: relative'>
    <noscript>
       <a href='#'>
          <img alt='Team Weaknesses Breakdown ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FK&#47;FKBD6TMD4&#47;1_rss.png' style='border: none' />
@@ -260,7 +260,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ### Scatter Plot Story
 
-<div class='tableauPlaceholder' id='viz1701793861768' style='position: relative; height: 1000px;'>
+<div class='tableauPlaceholder' id='viz1701793861768' style='position: relative'>
    <noscript>
      <a href='#'>
        <img alt='Scatter Plots ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;ScatterPlotStory&#47;1_rss.png' style='border: none' />
