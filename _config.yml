@@ -1,5 +1,5 @@
-title: Visualizing Pokemon World Championship Data 2014-2022
-description: Team 13 - CS 6730
+title: How to be the Very Best
+description: An exploration of the competitive Pokemon scene
 remote_theme: pages-themes/tactile@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
