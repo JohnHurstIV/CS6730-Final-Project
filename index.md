@@ -57,7 +57,7 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-<p style='display: block; margin: 4em; text-align: center'>
+<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
    Icons of every existing Pokemon in order according to their National Number. Hover over one to see its attributes (Name, Number, Gen, Primary Type, Secondary Type, and Base Stats). Click a Pokemon to highlight others with the same type combination.
 </p>
 
@@ -99,6 +99,11 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
    vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+
+<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
+   Table with the Pokemon on each Top-8 Team over for each World Championship. Hover over one to see its attributes (Name, Number, Primary Type, Secondary Type). Click a Pokemon to highlight other teams that used the same one.
+</p>
+
 
 <p style='margin: 3em'>
    A vertically scrolling vatiation of this viz including a histogram can be found <a href='https://public.tableau.com/views/Pokemon_17014658048490/WorldChampionshipTeams' target='_blank'>here</a>. We can break our analysis down into two sections: Types and Stats.
@@ -167,6 +172,10 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
+<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
+   Treemap showing the most popular primary and secondary types by color. Hover over a square to see the exact type combination of each square (Primary and Secondary) as well as the number of WC Top-8 appearances. Click a square to see the corresponding square in the adjacent Treemap.
+</p>
+
 <p style='margin: 3em'>
    Both show that there are very common types (such as Fire, Electric, and Water) and not-so-popular types (Ice, Bug, and Fighting) in the WC tournaments. Looking back at the type chart, it makes sense that Ice and Bug types are not popular with all their weaknesses, but it does not easily explain why Electric types are so common. We believe these types, while not standing out in terms of “effectiveness”, have Pokemon that tend to have other great attributes.
 </p>
@@ -176,6 +185,10 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 </p>
 
 <img src="./assets/type_popularity_area.png?raw=true" alt="Types Area Chart" title="Types Area Chart" style='display: block; margin: auto;'>
+
+<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
+   Streamplot of the count of each type in the WC Top-8 over the years. Each color represents a unique type.
+</p>
 
 <p style='margin: 3em'>
    It shows how some types have become more and less popular. Water types have become very popular since 2016. Grass and Psychic are also on the rise. Dragon types, on the other hand, seem to disappear over the years. Looking at the type chart again, it seems that Fairy is the reason. Fairy is strong against Dragon, so as it becomes more popular, the effectiveness of Dragon types decreases. It is also easy to see that only about half of the types are seen in the competitive scene rather than all eighteen.
@@ -215,6 +228,10 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
    vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+
+<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
+   Stacked bar chart showing 1) the average weakness level across a WC tournament against a specific type and 2) the team-specific weakness level in a WC tournament against a specific type. Each level is based on a type's damage multiplier against a specific Pokemon in the team (0 = not effective, 0.5 = not very effective, …, 4 = double super effective). Each color represents an individual Pokemon at a certain position. Hover over a square to see the position and multiplier. Click the Year drop-down to select ‘All’ years or choose a specific year. Click the Rank drop-down to select a specific rank in a specific year or ‘All’ to see the average weakness level for that year.
+</p>
 
 
 <p style='margin: 3em'>
@@ -297,6 +314,10 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
+<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
+   1) Line chart showing the average stats of the Top-8 WC teams for each year and 2) Bar Chart showing average stats of each of the Top-8 WC teams by year. Hover over a line or bar to see the specific value. On chart 2) click the Year drop-down to select a specific year or ‘Null’ to see the average stats across all Pokemon.
+</p>
+
 <p style='margin: 3em'>
    This chart shows the average of each stat for the top 8 teams for each year. Attack is preferred across the board and is approximately 10% higher than the other stats. Special Attack catches up in 2022, but prioritizing one of the Attack stats is the best option when choosing Pokemon for a team. 
 </p>
@@ -334,6 +355,64 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    A team’s role composition depends on each player’s play style. Since varying roles allow teams to adapt to others, these roles are an important part of the competitive Pokemon scene. To better understand which Pokemon are good at each listed role, we made a scatterplot showing the two key stats on each axis. 
 </p>
 
+
+<div class='tableauPlaceholder' id='viz1701862572364' style='position: relative'>
+   <noscript>
+      <a href='#'>
+         <img alt='Team Weaknesses Breakdown ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FK&#47;FKBD6TMD4&#47;1_rss.png' style='border: none' />
+      </a>
+   </noscript>
+   <object class='tableauViz'  style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='path' value='shared&#47;FKBD6TMD4' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FK&#47;FKBD6TMD4&#47;1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+   </object>
+</div>
+<script type='text/javascript'>
+   var divElement = document.getElementById('viz1701862572364');
+   var vizElement = divElement.getElementsByTagName('object')[0];
+   vizElement.style.width='1016px';vizElement.style.height='991px';
+   var scriptElement = document.createElement('script');
+   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+   vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
+   Stacked bar chart showing 1) the average weakness level across a WC tournament against a specific type and 2) the team-specific weakness level in a WC tournament against a specific type. Each level is based on a type's damage multiplier against a specific Pokemon in the team (0 = not effective, 0.5 = not very effective, …, 4 = double super effective). Each color represents an individual Pokemon at a certain position. Hover over a square to see the position and multiplier. Click the Year drop-down to select ‘All’ years or choose a specific year. Click the Rank drop-down to select a specific rank in a specific year or ‘All’ to see the average weakness level for that year.
+</p>
+
+
+<p style='margin: 3em'>
+   The darker silhouettes demonstrate the number of occurrences the Pokemon has on the WC top-8 stage. The most used Pokemon lie near the diagonal of the scatterplot, farther away from the origin. This viz gives a better idea of which Pokemon are better at a certain role (closer to the diagonal).
+</p>
+
+<p style='margin: 3em'>
+   The outliers in these plots are usually the Pokemon, who has a better-suited role. However, the ones that lie on the diagonal but are closer to the origin tend to have unique abilities that boost their stats. For example, the Rotom base form is relatively close to the center for a WC Pokemon. It has an inherent ability to transform and boost its stats. This transformed form is what competitive teams use in battle.
+</p>
+
+# Types & Stats
+
+<p style='margin: 3em'>
+   After seeing the trends in the types and stats of the top 8 separately, let’s combine them into a single viz to see any interesting features. 
+</p>
+
+<p style='margin: 3em'>
+   Before that, let’s quickly explain “legendaries.” There is a class of Pokemon called “legendary” as part of the game's lore. These “legendary” Pokemon tend to have extremely high stats across the board. There is another term known as “pseudo-legendary,” which refers to Pokemon that are not technically “legendary” but have stats similar to one. Both “legendary” and “pseudo-legendary” pokemon have a sum of stats greater than 600. Pokemon near or above this 600 threshold are common on WC teams.
+</p>
+
+<p style='margin: 3em'>
+   Now, let’s look at the overall distribution. Below are two dot plots showing each Pokemon's stat distribution by type.
+</p>
+
 <div class='tableauPlaceholder' id='viz1701882379324' style='position: relative'>
    <noscript>
       <a href='#'>
@@ -366,59 +445,9 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-
-<p style='margin: 3em'>
-   The darker silhouettes demonstrate the number of occurrences the Pokemon has on the WC top-8 stage. The most used Pokemon lie near the diagonal of the scatterplot, farther away from the origin. This viz gives a better idea of which Pokemon are better at a certain role (closer to the diagonal).
+<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
+   Dot plot distribution for Pokemon based on the 1) Sum of Stats and 2) Individual Stats. Each distribution is also grouped into rows by Primary Type. The dark vertical line represents the median value of the row. The dotted lines represent -1σ and +1σ around the mean of the row. Hover or Click a line to see the exact value. Hover over a dot to see its attributes (Name, Primary Type, World Appearances). The size and color of the dots both correspond to the number of World Appearances made by that Pokemon. Click the Year drop-down to filter the WC years to consider (leave ‘Null’ selected to see the WC Pokemon compared to every other Pokemon). 
 </p>
-
-<p style='margin: 3em'>
-   The outliers in these plots are usually the Pokemon, who has a better-suited role. However, the ones that lie on the diagonal but are closer to the origin tend to have unique abilities that boost their stats. For example, the Rotom base form is relatively close to the center for a WC Pokemon. It has an inherent ability to transform and boost its stats. This transformed form is what competitive teams use in battle.
-</p>
-
-# Types & Stats
-
-<p style='margin: 3em'>
-   After seeing the trends in the types and stats of the top 8 separately, let’s combine them into a single viz to see any interesting features. 
-</p>
-
-<p style='margin: 3em'>
-   Before that, let’s quickly explain “legendaries.” There is a class of Pokemon called “legendary” as part of the game's lore. These “legendary” Pokemon tend to have extremely high stats across the board. There is another term known as “pseudo-legendary,” which refers to Pokemon that are not technically “legendary” but have stats similar to one. Both “legendary” and “pseudo-legendary” pokemon have a sum of stats greater than 600. Pokemon near or above this 600 threshold are common on WC teams.
-</p>
-
-<p style='margin: 3em'>
-   Now, let’s look at the overall distribution. Below are two dot plots showing each Pokemon's stat distribution by type.
-</p>
-
-
-<div class='tableauPlaceholder' id='viz1701862572364' style='position: relative'>
-   <noscript>
-      <a href='#'>
-         <img alt='Team Weaknesses Breakdown ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FK&#47;FKBD6TMD4&#47;1_rss.png' style='border: none' />
-      </a>
-   </noscript>
-   <object class='tableauViz'  style='display:none;'>
-      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-      <param name='embed_code_version' value='3' />
-      <param name='path' value='shared&#47;FKBD6TMD4' />
-      <param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FK&#47;FKBD6TMD4&#47;1.png' />
-      <param name='animate_transition' value='yes' />
-      <param name='display_static_image' value='yes' />
-      <param name='display_spinner' value='yes' />
-      <param name='display_overlay' value='yes' />
-      <param name='display_count' value='yes' />
-      <param name='language' value='en-US' />
-      <param name='filter' value='publish=yes' />
-   </object>
-</div>
-<script type='text/javascript'>
-   var divElement = document.getElementById('viz1701862572364');
-   var vizElement = divElement.getElementsByTagName('object')[0];
-   vizElement.style.width='1016px';vizElement.style.height='991px';
-   var scriptElement = document.createElement('script');
-   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-   vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
@@ -471,6 +500,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-<p style='margin: 1em'>
-   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
+   
 </p>
+
