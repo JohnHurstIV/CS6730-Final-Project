@@ -57,6 +57,10 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
+<p style='display: block; margin: 4em; text-align: center'>
+   Icons of every existing Pokemon in order according to their National Number. Hover over one to see its attributes (Name, Number, Gen, Primary Type, Secondary Type, and Base Stats). Click a Pokemon to highlight others with the same type combination.
+</p>
+
 <p style='margin: 3em'>
    This one shows the team compositions of the top-8 WC teams. Only a fraction of the total set of pokemon is seen as “good enough” for the competitive scene. Let’s try to find out why.
 </p>
