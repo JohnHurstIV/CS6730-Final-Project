@@ -112,16 +112,16 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    Types are a major influence in a battle because they act as damage multipliers. Certain types are either:
 </p>
 
-<p style='margin: 1em; margin-left: 3em'>
+<p style='margin: 1em; margin-left: 5em'>
    Not effective at all (x0): Does not damage the attacked Pokemon
 </p>
-<p style='margin: 1em; margin-left: 3em'>
+<p style='margin: 1em; margin-left: 5em'>
    Not very effective (x0.5): Does half the damage to the attacked Pokemon
 </p>
-<p style='margin: 1em; margin-left: 3em'>
+<p style='margin: 1em; margin-left: 5em'>
    Neutrally effective (x1.0): Does the normal damage to the attacked Pokemon
 </p>
-<p style='margin: 1em; margin-left: 3em'>
+<p style='margin: 1em; margin-left: 5em'>
    Super effective (x2.0): Does double the damage to the attacked Pokemon
 </p>
 
@@ -239,22 +239,22 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    Stats also influence the damage multipliers in a battle, along with the battle duration and priority. Each Pokemon has 6 stats:
 </p>
 
-<p style='margin: 1em; margin-left: 3em'>
-   Hp: The health points of a Pokemon
+<p style='margin: 1em; margin-left: 5em'>
+   HP: The health points of a Pokemon
 </p>
-<p style='margin: 1em; margin-left: 3em'>
+<p style='margin: 1em; margin-left: 5em'>
    Atk: The physical attack of a Pokemon
 </p>
-<p style='margin: 1em; margin-left: 3em'>
+<p style='margin: 1em; margin-left: 5em'>
    Def: The physical defense of a Pokemon
 </p>
-<p style='margin: 1em; margin-left: 3em'>
+<p style='margin: 1em; margin-left: 5em'>
    Sp. Atk: The special attack of a Pokemon
 </p>
-<p style='margin: 1em; margin-left: 3em'>
+<p style='margin: 1em; margin-left: 5em'>
    Sp. Def: The special defense of a Pokemon
 </p>
-<p style='margin: 1em; margin-left: 3em'>
+<p style='margin: 1em; margin-left: 5em'>
    Spd: The speed of a Pokemon
 </p>
 
