@@ -7,7 +7,29 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 The Wonderful World of Pokemon
 {:/comment}
 
-## The Wonderful World of Pokemon
+<p style='margin: 1em'>
+   We took a look at the top 8 Pokemon World Championship teams from the past decade to understand what makes them the very best. 
+</p>
+
+<p style='margin: 1em'>
+   We used data scraped from both the Pokemon World Championship website which provides Species, Year, Ranks, and Positions, and Serebii.net, which is a Pokemon statistics website that describes the multivariate attributes of every existing Pokemon, like Name, Type, Attack, Defense, etc. Our project uses both datasets to visualize the key attributes that highly influence the result of pokemon battles, as well as the nuanced insights that are not immediately apparent by just looking at the data alone.
+</p>
+
+# Background
+
+<p style='margin: 1em'>
+   Let’s quickly explain Pokemon. This is a made-up data viz-themed Pokemon called J06. J06, like all Pokemon, has multiple attributes. We will be focusing on the type and stats. Each Pokemon has 6 stats and up to 2 types.
+</p>
+
+[tree diagram of the key attributes of pokemon]
+
+<p style='margin: 1em'>
+   For a Pokemon battle, the player chooses six Pokemon to battle against an opponent’s team of six. In a battle, players take turns prepping their Pokemon or damaging the opponent’s until one of the teams runs out of Pokemon.  Many factors influence who wins, but the most important are the stats and the types. 
+</p>
+
+<p style='margin: 1em'>
+   Below, you can see every existing Pokemon released up until 2022. There are nearly one thousand different species of Pokemon, each with their own types and stats.
+</p>
 
 <div class='tableauPlaceholder' id='viz1701865356282' style='position: relative'>
    <noscript>
@@ -42,7 +64,7 @@ The Wonderful World of Pokemon
 </script>
 
 <p style='margin: 1em'>
-   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+   This one shows the team compositions of the top-8 WC teams. Only a fraction of the total set of pokemon is seen as “good enough” for the competitive scene. Let’s try to find out why.
 </p>
 
 
@@ -84,7 +106,7 @@ Top 8 Teams 2014-2022
 </script>
 
 <p style='margin: 1em'>
-   A vertically scrolling vatiation of this viz including a histogram can be found <a href='https://public.tableau.com/views/Pokemon_17014658048490/WorldChampionshipTeams' target='_blank'>here</a>.      
+   A vertically scrolling vatiation of this viz including a histogram can be found <a href='https://public.tableau.com/views/Pokemon_17014658048490/WorldChampionshipTeams' target='_blank'>here</a>. We can break our analysis down into two sections: Types and Stats.
 </p>
 
 
@@ -143,48 +165,6 @@ Types
 Line Chart
 {:/comment}
 
-<div class='tableauPlaceholder' id='viz1701786617025' style='position: relative'>
-   <noscript>
-     <a href='#'>
-       <img alt='Line Chart ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Li&#47;Line_17017455809800&#47;Linechart&#47;1_rss.png' style='border: none' />
-     </a>
-   </noscript>
-   <object class='tableauViz'  style='display:none;'>
-      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-      <param name='embed_code_version' value='3' />
-      <param name='site_root' value='' />
-      <param name='name' value='Line_17017455809800&#47;Linechart' />
-      <param name='tabs' value='no' />
-      <param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Li&#47;Line_17017455809800&#47;Linechart&#47;1.png' />
-      <param name='animate_transition' value='yes' />
-      <param name='display_static_image' value='yes' />
-      <param name='display_spinner' value='yes' />
-      <param name='display_overlay' value='yes' />
-      <param name='display_count' value='yes' />
-      <param name='language' value='en-US' />
-      <param name='filter' value='publish=yes' />
-   </object>
-</div>
-<script type='text/javascript'>
-  var divElement = document.getElementById('viz1701786617025');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
-
-<p style='margin: 1em'>
-   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-</p>
-
-
-
-{::comment}
-Ranking Bump Chart
-{:/comment}
-
 <div class='tableauPlaceholder' id='viz1701911489909' style='position: relative'>
   <noscript><a href='#'><img alt='Story 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ra&#47;rank_17019114634400&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript>
   <object class='tableauViz'  style='display:none;'>
@@ -209,95 +189,6 @@ Ranking Bump Chart
   var vizElement = divElement.getElementsByTagName('object')[0];
   vizElement.style.width = '1000px';
   vizElement.style.height = '627px';
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
-
-
-<p style='margin: 1em'>
-   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-</p>
-
-
-
-{::comment}
-Area
-{:/comment}
-
-<div class='tableauPlaceholder' id='viz1701876943655' style='position: relative'>
-   <noscript><a href='#'><img alt='Story 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;General_Stats&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript>
-   <object class='tableauViz'  style='display:none;'>
-      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-      <param name='embed_code_version' value='3' />
-      <param name='site_root' value='' />
-      <param name='name' value='General_Stats&#47;Story1' />
-      <param name='tabs' value='no' />
-      <param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;General_Stats&#47;Story1&#47;1.png' />
-      <param name='animate_transition' value='yes' />
-      <param name='display_static_image' value='yes' />
-      <param name='display_spinner' value='yes' />
-      <param name='display_overlay' value='yes' />
-      <param name='display_count' value='yes' />
-      <param name='language' value='en-US' />
-      <param name='filter' value='publish=yes' />
-   </object>
-</div>
-<script type='text/javascript'>                    
-   var divElement = document.getElementById('viz1701876943655');                    
-   var vizElement = divElement.getElementsByTagName('object')[0];                    
-   vizElement.style.width='1016px';vizElement.style.height='991px';                    
-   var scriptElement = document.createElement('script');                    
-   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
-
-<p style='margin: 1em'>
-   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-</p>
-
-<p style='margin: 1em'>
-   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-</p>
-
-
-
-{::comment}
-Stacks
-{:/comment}
-
-<div class='tableauPlaceholder' id='viz1701899914677' style='position: relative'>
-   <noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;PokemonTournieBarCharts_17018995607590&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
-   <object class='tableauViz'  style='display:none;'>
-      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-      <param name='embed_code_version' value='3' />
-      <param name='site_root' value='' />
-      <param name='name' value='PokemonTournieBarCharts_17018995607590&#47;Dashboard1' />
-      <param name='tabs' value='no' />
-      <param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;PokemonTournieBarCharts_17018995607590&#47;Dashboard1&#47;1.png' />
-      <param name='animate_transition' value='yes' />
-      <param name='display_static_image' value='yes' />
-      <param name='display_spinner' value='yes' />
-      <param name='display_overlay' value='yes' />
-      <param name='display_count' value='yes' />
-      <param name='language' value='en-US' />
-      <param name='filter' value='publish=yes' />
-   </object>
-</div>
-<script type='text/javascript'>
-  var divElement = document.getElementById('viz1701899914677');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  if (divElement.offsetWidth > 800) {
-    vizElement.style.width = '1000px';
-    vizElement.style.height = '827px';
-  } else if (divElement.offsetWidth > 500) {
-    vizElement.style.width = '1000px';
-    vizElement.style.height = '827px';
-  } else {
-    vizElement.style.width = '100%';
-    vizElement.style.height = '727px';
-  }
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
