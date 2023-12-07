@@ -130,7 +130,7 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    This type of matchup chart from Wikipedia highlights the “effectiveness” relationships between the attacking and defending types.
 </p>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Pokemon_Type_Chart.svg/1024px-Pokemon_Type_Chart.svg.png" alt="Types Matchup Chart" title="Types Matchup Chart" style='display: block; margin: auto; width=50%;'>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Pokemon_Type_Chart.svg/1024px-Pokemon_Type_Chart.svg.png" alt="Types Matchup Chart" title="Types Matchup Chart" style='display: block; margin: auto; width: 50%;'>
 
 <p style='margin: 3em'>
    Let’s now look at which types are used in the WC scene. The treemap below gives a breakdown of the popular primary and secondary types used throughout the past decade.
