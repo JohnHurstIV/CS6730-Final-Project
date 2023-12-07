@@ -103,12 +103,12 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 </script>
 
 <p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
-   Table with the Pokemon on each Top-8 Team over for each World Championship. Hover over one to see its attributes (Name, Number, Primary Type, Secondary Type). Click a Pokemon to highlight other teams that used the same one.
+   Table with the Pokemon on each Top-8 Team over for each World Championship. Hover over one to see its attributes (Name, Number, Primary Type, Secondary Type). Click a Pokemon to highlight other teams that used the same one. A vertically scrolling variation of this viz including a histogram can be found <a href='https://public.tableau.com/views/Pokemon_17014658048490/WorldChampionshipTeams' target='_blank'>here</a>. 
 </p>
 
 
 <p style='margin: 3em'>
-   A vertically scrolling vatiation of this viz including a histogram can be found <a href='https://public.tableau.com/views/Pokemon_17014658048490/WorldChampionshipTeams' target='_blank'>here</a>. We can break our analysis down into two sections: Types and Stats.
+   We can break our analysis down into two sections: Types and Stats.
 </p>
 
 # Types
