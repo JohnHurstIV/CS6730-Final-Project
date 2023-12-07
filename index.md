@@ -238,6 +238,10 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    Stacked bar chart showing 1) the average weakness level across a WC tournament against a specific type and 2) the team-specific weakness level in a WC tournament against a specific type. Each level is based on a type's damage multiplier against a specific Pokemon in the team (0 = not effective, 0.5 = not very effective, …, 4 = double super effective). Each color represents an individual Pokemon at a certain position. Hover over a square to see the position and multiplier. Click the Year drop-down to select ‘All’ years or choose a specific year. Click the Rank drop-down to select a specific rank in a specific year or ‘All’ to see the average weakness level for that year.
 </p>
 
+<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
+   Stacked bar chart showing 1) the average weakness level across a WC tournament against a specific type and 2) the team-specific weakness level in a WC tournament against a specific type. Each level is based on a type's damage multiplier against a specific Pokemon in the team (0 = not effective, 0.5 = not very effective, …, 4 = double super effective). Each color represents an individual Pokemon at a certain position. Hover over a square to see the position and multiplier. Click the Year drop-down to select ‘All’ years or choose a specific year. Click the Rank drop-down to select a specific rank in a specific year or ‘All’ to see the average weakness level for that year.
+</p>
+
 
 <p style='margin: 3em'>
    This chart collection illuminates a few interesting trends. In the “Weaknesses by Year” chart, overall, it seems there is an even weakness distribution across all types, with peaks at Ice, Ground, and Rock and valleys at Normal and Bug. This follows the type chart pretty well. 
@@ -360,19 +364,20 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    A team’s role composition depends on each player’s play style. Since varying roles allow teams to adapt to others, these roles are an important part of the competitive Pokemon scene. To better understand which Pokemon are good at each listed role, we made a scatterplot showing the two key stats on each axis. 
 </p>
 
-
-<div class='tableauPlaceholder' id='viz1701862572364' style='position: relative'>
+<div class='tableauPlaceholder' id='viz1701793861768' style='position: relative'>
    <noscript>
-      <a href='#'>
-         <img alt='Team Weaknesses Breakdown ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FK&#47;FKBD6TMD4&#47;1_rss.png' style='border: none' />
-      </a>
+     <a href='#'>
+       <img alt='Scatter Plots ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;ScatterPlotStory&#47;1_rss.png' style='border: none' />
+     </a>
    </noscript>
    <object class='tableauViz'  style='display:none;'>
       <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
       <param name='embed_code_version' value='3' />
-      <param name='path' value='shared&#47;FKBD6TMD4' />
+      <param name='site_root' value='' />
+      <param name='name' value='Pokemon_17014658048490&#47;ScatterPlotStory' />
+      <param name='tabs' value='no' />
       <param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FK&#47;FKBD6TMD4&#47;1.png' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;ScatterPlotStory&#47;1.png' />
       <param name='animate_transition' value='yes' />
       <param name='display_static_image' value='yes' />
       <param name='display_spinner' value='yes' />
@@ -383,16 +388,16 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    </object>
 </div>
 <script type='text/javascript'>
-   var divElement = document.getElementById('viz1701862572364');
-   var vizElement = divElement.getElementsByTagName('object')[0];
-   vizElement.style.width='1016px';vizElement.style.height='991px';
-   var scriptElement = document.createElement('script');
-   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-   vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  var divElement = document.getElementById('viz1701793861768');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width='1000px';vizElement.style.height='1027px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
 <p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
-   Stacked bar chart showing 1) the average weakness level across a WC tournament against a specific type and 2) the team-specific weakness level in a WC tournament against a specific type. Each level is based on a type's damage multiplier against a specific Pokemon in the team (0 = not effective, 0.5 = not very effective, …, 4 = double super effective). Each color represents an individual Pokemon at a certain position. Hover over a square to see the position and multiplier. Click the Year drop-down to select ‘All’ years or choose a specific year. Click the Rank drop-down to select a specific rank in a specific year or ‘All’ to see the average weakness level for that year.
+   A scatterplot compares two specific stats based on the five selected roles: 1) Leads, 2) Walls, 3) Wall Breakers, 4) Bulk Sweepers, and 5) Fast Sweepers. Physical and Special Attacks are combined into Attack, while Physical and Special Defense are combined into a Defense. Darker shading means more World Appearances. Hover over a silhouette to see its attributes (Name, Number, World Appearances, and Stats). Use the Primary Type and Secondary Type drop-downs to select a specific type combination or select ‘All’ to see every Pokemon in that category.
 </p>
 
 
@@ -468,44 +473,3 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 <p style='margin: 3em'>
    In the “Individual Stats” dot plot, we can see how the popular WC Pokemon compares to the overall set of Pokemon. It is clear where the top Pokemon excel, and looking closely enough, team roles pop out based on how their base stats compare to the median. Like in the “Sum of Stats” plot, the outliers are worth noting. Blissey(a normal type) or Shuckle(a bug type) have extremely high stats in certain categories. But clicking them reveals that they have quite underwhelming stats in others.
 </p>
-
-
-
-
-
-<div class='tableauPlaceholder' id='viz1701793861768' style='position: relative'>
-   <noscript>
-     <a href='#'>
-       <img alt='Scatter Plots ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;ScatterPlotStory&#47;1_rss.png' style='border: none' />
-     </a>
-   </noscript>
-   <object class='tableauViz'  style='display:none;'>
-      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-      <param name='embed_code_version' value='3' />
-      <param name='site_root' value='' />
-      <param name='name' value='Pokemon_17014658048490&#47;ScatterPlotStory' />
-      <param name='tabs' value='no' />
-      <param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Pokemon_17014658048490&#47;ScatterPlotStory&#47;1.png' />
-      <param name='animate_transition' value='yes' />
-      <param name='display_static_image' value='yes' />
-      <param name='display_spinner' value='yes' />
-      <param name='display_overlay' value='yes' />
-      <param name='display_count' value='yes' />
-      <param name='language' value='en-US' />
-      <param name='filter' value='publish=yes' />
-   </object>
-</div>
-<script type='text/javascript'>
-  var divElement = document.getElementById('viz1701793861768');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width='1000px';vizElement.style.height='1027px';
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
-
-<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
-   
-</p>
-
