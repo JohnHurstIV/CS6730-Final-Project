@@ -3,7 +3,7 @@ layout: default
 ---
 By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 
-<img src="https://upload.wikimedia.org/wikipedia/en/e/e8/Pok%C3%A9mon_World_Championships_logo.png" alt="Pokemon World Championship Logo" title="Pokemon World Championship Logo" style='display: block; margin: auto; width: 50%;'>
+<img src="https://upload.wikimedia.org/wikipedia/en/e/e8/Pok%C3%A9mon_World_Championships_logo.png" alt="Pokemon World Championship Logo" title="Pokemon World Championship Logo" style='display: block; margin: auto; width: 20%;'>
 
 <p style='margin: 3em'>
    We took a look at the top 8 Pokemon World Championship teams from the past decade to understand what makes them the very best. 
@@ -16,7 +16,7 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 # Background
 
 <p style='margin: 3em'>
-   Let’s quickly explain Pokemon. This is a made-up data viz-themed Pokemon called J06. J06, like all Pokemon, has multiple attributes. We will be focusing on the type and stats. Each Pokemon has 6 stats and up to 2 types.
+   Let’s quickly explain Pokemon. Each Pokemon has multiple attributes. We will be focusing on their types and stats. Each Pokemon has 6 stats and up to 2 types.
 </p>
 
 <p style='margin: 3em'>
