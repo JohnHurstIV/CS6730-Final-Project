@@ -238,11 +238,6 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    Stacked bar chart showing 1) the average weakness level across a WC tournament against a specific type and 2) the team-specific weakness level in a WC tournament against a specific type. Each level is based on a type's damage multiplier against a specific Pokemon in the team (0 = not effective, 0.5 = not very effective, …, 4 = double super effective). Each color represents an individual Pokemon at a certain position. Hover over a square to see the position and multiplier. Click the Year drop-down to select ‘All’ years or choose a specific year. Click the Rank drop-down to select a specific rank in a specific year or ‘All’ to see the average weakness level for that year.
 </p>
 
-<p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
-   Stacked bar chart showing 1) the average weakness level across a WC tournament against a specific type and 2) the team-specific weakness level in a WC tournament against a specific type. Each level is based on a type's damage multiplier against a specific Pokemon in the team (0 = not effective, 0.5 = not very effective, …, 4 = double super effective). Each color represents an individual Pokemon at a certain position. Hover over a square to see the position and multiplier. Click the Year drop-down to select ‘All’ years or choose a specific year. Click the Rank drop-down to select a specific rank in a specific year or ‘All’ to see the average weakness level for that year.
-</p>
-
-
 <p style='margin: 3em'>
    This chart collection illuminates a few interesting trends. In the “Weaknesses by Year” chart, overall, it seems there is an even weakness distribution across all types, with peaks at Ice, Ground, and Rock and valleys at Normal and Bug. This follows the type chart pretty well. 
 </p>
@@ -458,8 +453,6 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 <p style='display: block; margin: 1em; text-align: center; color: #6d6d6d; font-style: italic'>
    Dot plot distribution for Pokemon based on the 1) Sum of Stats and 2) Individual Stats. Each distribution is also grouped into rows by Primary Type. The dark vertical line represents the median value of the row. The dotted lines represent -1σ and +1σ around the mean of the row. Hover or Click a line to see the exact value. Hover over a dot to see its attributes (Name, Primary Type, World Appearances). The size and color of the dots both correspond to the number of World Appearances made by that Pokemon. Click the Year drop-down to filter the WC years to consider (leave ‘Null’ selected to see the WC Pokemon compared to every other Pokemon). 
 </p>
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 <p style='margin: 3em'>
    The “Sum of Stats” dot plot shows many of the WC Pokemon are near this 600 stat level. The ones that do not tend to be well above the median sum of stats for the type. The outliers of these two sets are worth noting. These Pokemon typically have a special strategy based on their moves and abilities. One example is the normal-type Pokemon Smeargle, which has a strategy based around its unique move called “Sketch.” 
