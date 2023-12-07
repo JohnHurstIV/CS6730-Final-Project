@@ -112,10 +112,10 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    Types are a major influence in a battle because they act as damage multipliers. Certain types are either:
 </p>
 
-- Not effective at all (x0): Does not damage the attacked Pokemon
-- Not very effective (x0.5): Does half the damage to the attacked Pokemon
-- Neutrally effective (x1.0): Does the normal damage to the attacked Pokemon
-- Super effective (x2.0): Does double the damage to the attacked Pokemon
+    - Not effective at all (x0): Does not damage the attacked Pokemon
+    - Not very effective (x0.5): Does half the damage to the attacked Pokemon
+    - Neutrally effective (x1.0): Does the normal damage to the attacked Pokemon
+    - Super effective (x2.0): Does double the damage to the attacked Pokemon
 
 
 <p style='margin: 3em'>
@@ -231,12 +231,12 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    Stats also influence the damage multipliers in a battle, along with the battle duration and priority. Each Pokemon has 6 stats:
 </p>
 
-- Hp: The health points of a Pokemon
-- Atk: The physical attack of a Pokemon
-- Def: The physical defense of a Pokemon
-- Sp. Atk: The special attack of a Pokemon
-- Sp. Def: The special defense of a Pokemon
-- Spd: The speed of a Pokemon
+    - Hp: The health points of a Pokemon
+    - Atk: The physical attack of a Pokemon
+    - Def: The physical defense of a Pokemon
+    - Sp. Atk: The special attack of a Pokemon
+    - Sp. Def: The special defense of a Pokemon
+    - Spd: The speed of a Pokemon
 
 
 <p style='margin: 3em'>
