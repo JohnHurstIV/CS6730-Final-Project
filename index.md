@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h4 style='margin: 1em'>By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev</h4>
+By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 
 {::comment}
 The Wonderful World of Pokemon
