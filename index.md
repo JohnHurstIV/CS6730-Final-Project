@@ -4,10 +4,6 @@ layout: default
 By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 
 <p style='margin: 3em'>
-   template
-</p>
-
-<p style='margin: 3em'>
    We took a look at the top 8 Pokemon World Championship teams from the past decade to understand what makes them the very best. 
 </p>
 
@@ -266,16 +262,13 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 
 
 
+<p style='margin: 3em'>
+   Damage is done by taking away HP from a Pokemon. Once its HP is reduced to 0, the Pokemon is no longer usable in that battle. Along with the type “effectiveness” multiplier, the damage is multiplied by the ratio of the attacking Pokemon’s attack stat to the defending Pokemon’s defense stat (Atk/Def). A Pokemon can either attack with a physical or special attack. The corresponding defense stat of the attacked Pokemon is used in the ratio. Speed determines which Pokemon moves attacks first for each turn, with the higher-speed Pokemon moving first.
+</p>
 
-
-
-
-
-
-
-
-
-
+<p style='margin: 3em'>
+   All in all, pokemon having high stats tends to mean they are good. Let’s look at some trends. Below is the average of the stats of the top 8 teams over the years.
+</p>
 
 
 
@@ -308,11 +301,97 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-<p style='margin: 1em'>
-   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<p style='margin: 3em'>
+   This chart shows the average of each stat for the top 8 teams for each year. Attack is preferred across the board and is approximately 10% higher than the other stats. Special Attack catches up in 2022, but prioritizing one of the Attack stats is the best option when choosing Pokemon for a team. 
 </p>
 
+<p style='margin: 3em'>
+   There also seems to be an almost periodic behavior between the rest of the stats peaking and dropping every couple of years. We think this is due to the new Pokemon added each year that change the meta for the game. GameFreak, the owners of Pokemon, tend to add or change game factors every year. These changes influence the damage calculation. For example, the stats peaked in 2019 and dropped in 2020 because of a controversial change called “Dexit.” This change caused many of the older Pokemon to be inaccessible in the new game used for the competition. Looking at the team composition in the top table, none of the Pokemon used in 2019 were used in 2020. Due to this new rule, there are very few repeated icons. The change was reverted in 2022, and the overall stats increased.
+</p>
 
+<p style='margin: 3em'>
+   Next, let’s look at the stat broken down across the ranks. There seem to be few trends in this chart. While there are minor differences between the individual stats, they are all relatively the same level. The main takeaway we see is similar to the “Stats Combined” chart. WC-level teams prioritize high attack stats over all others. In 2022, it seems that special defense is preferred over physical defense, and physical attack is preferred over special attack.
+</p>
+
+# Roles
+
+<p style='margin: 3em'>
+   In the competitive scene, the 6 Pokemon tend to have a role. Some of the roles include:
+</p>
+<p style='margin: 1em; margin-left: 5em'>
+   Leads (Def & Spd): These Pokemon are sent out first to battle so they need to be fast to first move and endure an attack from the opponent if needed.
+</p>
+<p style='margin: 1em; margin-left: 5em'>
+   Walls (HP & Def): These Pokemon specialize in setups by withstanding multiple attacks from the opponent until they are ready to make a move.
+</p>
+<p style='margin: 1em; margin-left: 5em'>
+   Wall Breakers(Atk & Def): These Pokemon are great for stopping Walls before they can set up and make their move.
+</p>
+<p style='margin: 1em; margin-left: 5em'>
+   Bulk Sweepers(HP & Atk): These Pokemon are great at withstanding a few attacks from opponents but can specialize in taking out opponents quickly.
+</p>
+<p style='margin: 1em; margin-left: 5em'>
+   Fast Sweepers(Atk & Spd): These Pokemon are very fast and aim to attack and take out the opponent before they get hit themselves.
+</p>
+
+<p style='margin: 3em'>
+   A team’s role composition depends on each player’s play style. Since varying roles allow teams to adapt to others, these roles are an important part of the competitive Pokemon scene. To better understand which Pokemon are good at each listed role, we made a scatterplot showing the two key stats on each axis. 
+</p>
+
+<div class='tableauPlaceholder' id='viz1701882379324' style='position: relative'>
+   <noscript>
+      <a href='#'>
+         <img alt='Stat Distributions by Type ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;PokemonVis&#47;StatDistributions&#47;1_rss.png' style='border: none' />
+      </a>
+   </noscript>
+   <object class='tableauViz'  style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='PokemonVis&#47;StatDistributions' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;PokemonVis&#47;StatDistributions&#47;1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+   </object>
+</div>
+<script type='text/javascript'>
+   var divElement = document.getElementById('viz1701882379324');
+   var vizElement = divElement.getElementsByTagName('object')[0];
+   vizElement.style.width='1016px';vizElement.style.height='991px';
+   var scriptElement = document.createElement('script');
+   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+   vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+
+<p style='margin: 3em'>
+   The darker silhouettes demonstrate the number of occurrences the Pokemon has on the WC top-8 stage. The most used Pokemon lie near the diagonal of the scatterplot, farther away from the origin. This viz gives a better idea of which Pokemon are better at a certain role (closer to the diagonal).
+</p>
+
+<p style='margin: 3em'>
+   The outliers in these plots are usually the Pokemon, who has a better-suited role. However, the ones that lie on the diagonal but are closer to the origin tend to have unique abilities that boost their stats. For example, the Rotom base form is relatively close to the center for a WC Pokemon. It has an inherent ability to transform and boost its stats. This transformed form is what competitive teams use in battle.
+</p>
+
+# Types & Stats
+
+<p style='margin: 3em'>
+   After seeing the trends in the types and stats of the top 8 separately, let’s combine them into a single viz to see any interesting features. 
+</p>
+
+<p style='margin: 3em'>
+   Before that, let’s quickly explain “legendaries.” There is a class of Pokemon called “legendary” as part of the game's lore. These “legendary” Pokemon tend to have extremely high stats across the board. There is another term known as “pseudo-legendary,” which refers to Pokemon that are not technically “legendary” but have stats similar to one. Both “legendary” and “pseudo-legendary” pokemon have a sum of stats greater than 600. Pokemon near or above this 600 threshold are common on WC teams.
+</p>
+
+<p style='margin: 3em'>
+   Now, let’s look at the overall distribution. Below are two dot plots showing each Pokemon's stat distribution by type.
+</p>
 
 
 <div class='tableauPlaceholder' id='viz1701862572364' style='position: relative'>
@@ -347,48 +426,17 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-<p style='margin: 1em'>
-   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<p style='margin: 3em'>
+   The “Sum of Stats” dot plot shows many of the WC Pokemon are near this 600 stat level. The ones that do not tend to be well above the median sum of stats for the type. The outliers of these two sets are worth noting. These Pokemon typically have a special strategy based on their moves and abilities. One example is the normal-type Pokemon Smeargle, which has a strategy based around its unique move called “Sketch.” 
+</p>
+
+<p style='margin: 3em'>
+   On the flip side, the Pokemon to the far right (above the 600 stat level) that are not seen in the WC scene have reasons for not being utilized. One example of this is the normal-type Pokemon Slaking. Although its stats are very high, it has an ability called “Truant” that prevents it from making a move every other turn. An ability like that is detrimental in the WC scene.
 </p>
 
 
-
-
-
-<div class='tableauPlaceholder' id='viz1701882379324' style='position: relative'>
-   <noscript>
-      <a href='#'>
-         <img alt='Stat Distributions by Type ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;PokemonVis&#47;StatDistributions&#47;1_rss.png' style='border: none' />
-      </a>
-   </noscript>
-   <object class='tableauViz'  style='display:none;'>
-      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-      <param name='embed_code_version' value='3' />
-      <param name='site_root' value='' />
-      <param name='name' value='PokemonVis&#47;StatDistributions' />
-      <param name='tabs' value='no' />
-      <param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;PokemonVis&#47;StatDistributions&#47;1.png' />
-      <param name='animate_transition' value='yes' />
-      <param name='display_static_image' value='yes' />
-      <param name='display_spinner' value='yes' />
-      <param name='display_overlay' value='yes' />
-      <param name='display_count' value='yes' />
-      <param name='language' value='en-US' />
-      <param name='filter' value='publish=yes' />
-   </object>
-</div>
-<script type='text/javascript'>
-   var divElement = document.getElementById('viz1701882379324');
-   var vizElement = divElement.getElementsByTagName('object')[0];
-   vizElement.style.width='1016px';vizElement.style.height='991px';
-   var scriptElement = document.createElement('script');
-   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-   vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
-
-<p style='margin: 1em'>
-   This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<p style='margin: 3em'>
+   In the “Individual Stats” dot plot, we can see how the popular WC Pokemon compares to the overall set of Pokemon. It is clear where the top Pokemon excel, and looking closely enough, team roles pop out based on how their base stats compare to the median. Like in the “Sum of Stats” plot, the outliers are worth noting. Blissey(a normal type) or Shuckle(a bug type) have extremely high stats in certain categories. But clicking them reveals that they have quite underwhelming stats in others.
 </p>
 
 
