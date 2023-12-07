@@ -339,7 +339,7 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 # Roles
 
 <p style='margin: 3em'>
-   In the competitive scene, the 6 Pokemon tend to have a role. Some of the roles include:
+   Let's take this one step further. In the competitive scene, the 6 Pokemon tend to have a role. Some of the roles include:
 </p>
 <p style='margin: 1em; margin-left: 5em'>
    Leads (Def & Spd): These Pokemon are sent out first to battle so they need to be fast to first move and endure an attack from the opponent if needed.
