@@ -112,17 +112,25 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    Types are a major influence in a battle because they act as damage multipliers. Certain types are either:
 </p>
 
-  - Not effective at all (x0): Does not damage the attacked Pokemon
-  - Not very effective (x0.5): Does half the damage to the attacked Pokemon
-  - Neutrally effective (x1.0): Does the normal damage to the attacked Pokemon
-  - Super effective (x2.0): Does double the damage to the attacked Pokemon
+<p style='margin: 1em; margin-left: 3em'>
+   Not effective at all (x0): Does not damage the attacked Pokemon
+</p>
+<p style='margin: 1em; margin-left: 3em'>
+   Not very effective (x0.5): Does half the damage to the attacked Pokemon
+</p>
+<p style='margin: 1em; margin-left: 3em'>
+   Neutrally effective (x1.0): Does the normal damage to the attacked Pokemon
+</p>
+<p style='margin: 1em; margin-left: 3em'>
+   Super effective (x2.0): Does double the damage to the attacked Pokemon
+</p>
 
 
 <p style='margin: 3em'>
    This type of matchup chart from Wikipedia highlights the “effectiveness” relationships between the attacking and defending types.
 </p>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Pokemon_Type_Chart.svg/1024px-Pokemon_Type_Chart.svg.png" alt="Types Matchup Chart" title="Types Matchup Chart" style='display: block; margin: auto;'>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Pokemon_Type_Chart.svg/1024px-Pokemon_Type_Chart.svg.png" alt="Types Matchup Chart" title="Types Matchup Chart" style='display: block; margin: auto; width=50%;'>
 
 <p style='margin: 3em'>
    Let’s now look at which types are used in the WC scene. The treemap below gives a breakdown of the popular primary and secondary types used throughout the past decade.
@@ -231,12 +239,25 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
    Stats also influence the damage multipliers in a battle, along with the battle duration and priority. Each Pokemon has 6 stats:
 </p>
 
-  - Hp: The health points of a Pokemon
-  - Atk: The physical attack of a Pokemon
-  - Def: The physical defense of a Pokemon
-  - Sp. Atk: The special attack of a Pokemon
-  - Sp. Def: The special defense of a Pokemon
-  - Spd: The speed of a Pokemon
+<p style='margin: 1em; margin-left: 3em'>
+   Hp: The health points of a Pokemon
+</p>
+<p style='margin: 1em; margin-left: 3em'>
+   Atk: The physical attack of a Pokemon
+</p>
+<p style='margin: 1em; margin-left: 3em'>
+   Def: The physical defense of a Pokemon
+</p>
+<p style='margin: 1em; margin-left: 3em'>
+   Sp. Atk: The special attack of a Pokemon
+</p>
+<p style='margin: 1em; margin-left: 3em'>
+   Sp. Def: The special defense of a Pokemon
+</p>
+<p style='margin: 1em; margin-left: 3em'>
+   Spd: The speed of a Pokemon
+</p>
+
 
 
 <p style='margin: 3em'>
