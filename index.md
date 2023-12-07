@@ -468,3 +468,36 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 <p style='margin: 3em'>
    In the “Individual Stats” dot plot, we can see how the popular WC Pokemon compares to the overall set of Pokemon. It is clear where the top Pokemon excel, and looking closely enough, team roles pop out based on how their base stats compare to the median. Like in the “Sum of Stats” plot, the outliers are worth noting. Blissey(a normal type) or Shuckle(a bug type) have extremely high stats in certain categories. But clicking them reveals that they have quite underwhelming stats in others.
 </p>
+
+# Conclusion
+
+<p style='margin: 3em'>
+   Our comprehensive analysis of the top 8 teams from the past decade of Pokemon World Championships has unveiled a wealth of insights into the strategies and compositions that make these teams successful. Through our detailed examination of types, stats, and roles, several key themes have emerged:
+</p>
+
+<p style='margin: 1em; margin-left: 5em'>
+   <b>Type Matters:</b> The prevalence of certain types over others in championship teams underscores the importance of understanding and exploiting type matchups. Notably, types like Water, Electric, and Fire have dominated, while Ice, Bug, and Fighting types have been less common.
+</p>
+<p style='margin: 1em; margin-left: 5em'>
+   <b>Stat Prioritization:</b> High Attack stats have consistently been a hallmark of top-performing teams. This emphasizes the competitive advantage of offensive strategies over defensive ones in the championship meta.
+</p>
+<p style='margin: 1em; margin-left: 5em'>
+   <b>Role Diversification:</b> Successful teams have demonstrated a balanced mix of roles, adapting to various battle scenarios. Roles such as Leads, Walls, Wall Breakers, Bulk Sweepers, and Fast Sweepers are crucial for a well-rounded team capable of handling diverse threats.
+</p>
+<p style='margin: 1em; margin-left: 5em'>
+   <b>Evolving Meta:</b> The fluctuating popularity of certain types and stats over the years reflects the evolving nature of competitive Pokemon. This highlights the necessity for players to stay adaptable and up-to-date with the changing meta.
+</p>
+<p style='margin: 1em; margin-left: 5em'>
+   <b>The Role of 'Legendary' and 'Pseudo-Legendary' Pokemon:</b> These Pokemon often play a significant role in top teams, given their superior stats. However, our analysis also revealed that some Pokemon with high stats are overlooked due to certain detrimental abilities or lack of versatility in roles.
+</p>
+<p style='margin: 1em; margin-left: 5em'>
+   <b>Outlier Strategies:</b> We noticed that some teams succeeded with unconventional strategies, utilizing Pokemon that don't fit the typical high-stat mold. This suggests that creativity and surprise elements can be as effective as conventional strategies.
+</p>
+<p style='margin: 3em'>
+   In summary, our project illuminates the complex interplay of types, stats, and roles in shaping the strategies of top Pokemon World Championship teams. While certain patterns and preferences are clear, the dynamic nature of competitive Pokemon means that adaptability, innovative team composition, and a deep understanding of the game's mechanics are key to success.
+</p>
+
+
+<p style='margin: 3em'>
+   As the Pokemon landscape continues to evolve, future competitors can draw upon these insights to craft their strategies. Whether through embracing tried-and-tested methods or pioneering new approaches, the world of competitive Pokemon remains a vibrant and challenging arena.
+</p>
