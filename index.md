@@ -255,12 +255,6 @@ By Nikhil Chittaluru, Jack Hurst, Marissa Sorkin, Plamen Tassev
 
 
 <p style='margin: 3em'>
-   [radar chart time of Pokemon stats woooooo]
-</p>
-
-
-
-<p style='margin: 3em'>
    Damage is done by taking away HP from a Pokemon. Once its HP is reduced to 0, the Pokemon is no longer usable in that battle. Along with the type “effectiveness” multiplier, the damage is multiplied by the ratio of the attacking Pokemon’s attack stat to the defending Pokemon’s defense stat (Atk/Def). A Pokemon can either attack with a physical or special attack. The corresponding defense stat of the attacked Pokemon is used in the ratio. Speed determines which Pokemon moves attacks first for each turn, with the higher-speed Pokemon moving first.
 </p>
 
